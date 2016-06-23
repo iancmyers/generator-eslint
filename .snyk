@@ -1,0 +1,6 @@
+version: v1.5.0
+ignore: {}
+patch:
+  'npm:tar:20151103':
+    - yeoman-generator > download > decompress > tar:
+        patched: '2016-06-23T20:20:46.384Z'
