@@ -27,7 +27,7 @@
     "release": "eslint-release"
   },
   "dependencies": {
-    "yeoman-generator": "~0.16.0"
+    "yeoman-generator": "~0.18.0"
   },
   "devDependencies": {
     "eslint-release": "^0.3.0",
