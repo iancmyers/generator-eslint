@@ -24,10 +24,13 @@
   },
   "scripts": {
     "test": "mocha",
-    "release": "eslint-release"
+    "release": "eslint-release",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "yeoman-generator": "~0.16.0"
+    "yeoman-generator": "~0.21.0",
+    "snyk": "^1.105.0"
   },
   "devDependencies": {
     "eslint-release": "^0.3.0",
@@ -44,5 +47,6 @@
     {
       "type": "MIT"
     }
-  ]
+  ],
+  "snyk": true
 }
